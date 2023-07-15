@@ -169,7 +169,7 @@ int main(void)
 
         if (gameOver)
         {
-            DrawText("You lost!", screenWidth * 0.35, screenHeight * 0.3, 60, LIGHTGRAY);
+            DrawText("GAME OVER", screenWidth * 0.35, screenHeight * 0.3, 60, LIGHTGRAY);
         }
 
         EndDrawing();
